@@ -22,6 +22,7 @@ public class Electricity_Bill {
         finalBill=unit*rate;
         System.out.println("Units you used this month: "+unit + "units");
         System.out.println("Your bill amount is: "+finalBill);
+        sc.close();
 
     }
 
